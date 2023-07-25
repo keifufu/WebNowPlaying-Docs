@@ -1,6 +1,7 @@
 {
-  "name": "wnp.keifufu.dev",
+  "name": "webnowplaying-docs",
   "version": "1.0.0",
+  "packageManager": "^pnpm@8.6.6",
   "description": "",
   "main": "index.js",
   "scripts": {
