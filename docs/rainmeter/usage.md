@@ -97,7 +97,9 @@ X=5
 Y=5
 FontColor=FFFF00
 Text="Prev"
-LeftMouseUpAction=[!CommandMeasure "MeasurePlayer" "Previous"]
+# The measure to perform the Bang on does not matter,
+# it can be any WebNowPlaying measure.
+LeftMouseUpAction=[!CommandMeasure "MeasureTitle" "Previous"]
 
 [MeterNext]
 Meter=String
@@ -105,7 +107,7 @@ X=20R
 Y=5
 FontColor=FFFF00
 Text="Next"
-LeftMouseUpAction=[!CommandMeasure "MeasurePlayer" "Next"]
+LeftMouseUpAction=[!CommandMeasure "MeasureTitle" "Next"]
 
 [MeterTitle]
 Meter=String
