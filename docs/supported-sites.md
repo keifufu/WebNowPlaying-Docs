@@ -1,104 +1,126 @@
+---
+head:
+  - - link
+    - rel: stylesheet
+      href: /supported-sites.css
+---
+
 # Supported Sites
 
-## Index
-
-- [Apple Music](/supported-sites#apple-music)
-- [Bandcamp](/supported-sites#bandcamp)
-- [Deezer](/supported-sites#deezer)
-- [Invidious](/supported-sites#invidious)
-- [Jellyfin](/supported-sites#jellyfin)
-- [Kick](/supported-sites#kick)
-- [Navidrome](/supported-sites#navidrome)
-- [Netflix](/supported-sites#netflix)
-- [Pandora](/supported-sites#pandora)
-- [Plex](/supported-sites#plex)
-- [Radio Addict](/supported-sites#radio-addict)
-- [SoundCloud](/supported-sites#soundcloud)
-- [Spotify](/supported-sites#spotify)
-- [Tidal](/supported-sites#tidal)
-- [Twitch](/supported-sites#twitch)
-- [Yandex Music](/supported-sites#yandex-music)
-- [YouTube](/supported-sites#youtube)
-- [YouTube Embeds](/supported-sites#youtube-embeds)
-- [YouTube Music](/supported-sites#youtube-music)
-- [Other sites](/supported-sites#other-sites)
-
-## Apple Music
+::: details Apple Music
 
 - Fully supported
 
-## Bandcamp
+:::
+
+::: details Bandcamp
 
 - Fully supported
 
-## Deezer
+:::
+
+::: details Deezer
 
 - Missing volume control
 
-## Invidious
+:::
+
+::: details Invidious
 
 - Fully supported
 
-## Jellyfin
+:::
+
+::: details Jellyfin
 
 - Music player not supported
 
-## Kick
+:::
+
+::: details Kick
 
 - Fully supported
 
-## Navidrome
+:::
+
+::: details Navidrome
 
 - Fully supported
 
-## Netflix
+:::
+
+::: details Netflix
 
 - Fully supported
 
-## Pandora
+:::
+
+::: details Pandora
 
 - Missing volume control
 
-## Plex
+:::
+
+::: details Plex
 
 - Fully supported
 
-## Radio Addict
+:::
+
+::: details Radio Addict
 
 - Fully supported
 
-## SoundCloud
+:::
+
+::: details SoundCloud
 
 - Fully supported
 
-## Spotify
+:::
+
+::: details Spotify
 
 - Fully supported
 
-## Tidal
+:::
+
+::: details Tidal
 
 - Missing volume control
 
-## Twitch
+:::
+
+::: details Twitch
 
 - Fully supported
 
-## Yandex Music
+:::
+
+::: details Yandex Music
 
 - Should be fully supported, this was implemented by [koteikanata](https://github.com/koteikanata) and I can't test if it works due to Yandex Music not being available in my country.
 
-## YouTube
+:::
+
+::: details YouTube
 
 - Fully supported
 
-## YouTube Embeds
+:::
+
+::: details YouTube Embeds
 
 - Fully supported
 
-## YouTube Music
+:::
+
+::: details YouTube Music
 
 - Fully supported
 
-## Other sites
+:::
+
+## Unsupported sites
 
 Enabling "Try to parse media from unsupported websites" under "Unsupported Sites" in the extension settings might work. Read more [here](/extension/settings#unsupported-sites).

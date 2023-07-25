@@ -1,0 +1,18 @@
+.vp-doc p {
+  line-height: unset !important;
+  margin: unset !important;
+}
+
+.vp-doc .custom-block {
+  margin: 8px 0 !important;
+  padding: 0 0 0 10px !important;
+}
+
+.custom-block.details summary {
+  margin: unset !important;
+}
+
+.vp-doc ul,
+.vp-doc ol {
+  margin: 8px 0;
+}
