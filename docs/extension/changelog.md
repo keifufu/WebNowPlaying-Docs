@@ -8,6 +8,11 @@ Changelogs for v0.x.x are only partly available, these versions are made by [tjh
 
 Full changelog available via [Github Commits](https://github.com/keifufu/WebNowPlaying-Redux/commits/main)
 
+## v2.0.6
+
+- Updated links to new documentation
+- Remove " - Topic" from artists
+
 ## v2.0.5
 
 - Properly fix what should have been fixed in 2.0.3 and 2.0.4
