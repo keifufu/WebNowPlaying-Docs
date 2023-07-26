@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 
 export default defineConfig({
   title: "WebNowPlaying",
+  titleTemplate: ":title - WebNowPlaying",
   description:
     "A WebSocket server-client system for retrieving music info and managing playback",
   srcDir: "docs",
