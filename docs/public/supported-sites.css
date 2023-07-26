@@ -1,18 +1,18 @@
-.vp-doc p {
+.vp-doc .supported-sites p {
   line-height: unset !important;
   margin: unset !important;
 }
 
-.vp-doc .custom-block {
+.vp-doc .supported-sites .custom-block {
   margin: 8px 0 !important;
   padding: 0 0 0 10px !important;
 }
 
-.custom-block.details summary {
+.supported-sites .custom-block.details summary {
   margin: unset !important;
 }
 
-.vp-doc ul,
-.vp-doc ol {
+.vp-doc .supported-sites ul,
+.vp-doc .supported-sites ol {
   margin: 8px 0;
 }

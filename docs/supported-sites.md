@@ -7,6 +7,8 @@ head:
 
 # Supported Sites
 
+<div class="supported-sites">
+
 ::: details Apple Music
 
 - Fully supported
@@ -120,6 +122,8 @@ head:
 - Fully supported
 
 :::
+
+</div>
 
 ## Unsupported sites
 
