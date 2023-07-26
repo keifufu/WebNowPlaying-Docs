@@ -32,7 +32,7 @@ You can connect the browser extension to your adapter by clicking "Add custom ad
 - Must exclusively use one of the official adapter libraries for communication
 - Must be open-sourced on GitHub
 - Executables, plugins or scripts must be published via GitHub releases
-- GitHub releases must be tagged as "vx.x.x" or "x.x.x"
+- GitHub releases must be tagged as "vmajor.minor.patch" or "major.minor.patch"
 - Must use a unique port, which cannot be changed after submitting your adapter.
 - GitHub repository muts be named "WebNowPlaying-Redux-name" e.g., "WebNowPlaying-Redux-Rainmeter".
 
