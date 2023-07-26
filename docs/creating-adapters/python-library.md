@@ -38,7 +38,7 @@ Starts WNP if it's not already started.
 ::: info Parameters
 
 - `port`: The port number to be used by WNP. Avoid using ports already used by other adapters or conflicting with other programs.
-- `version`: The version of WNP, which should be in the format "x.x.x".
+- `version`: The version of your adapter, which should be in the format "major.minor.patch".
 - `logger`: A function that handles logging, provided by the user.
 
 :::

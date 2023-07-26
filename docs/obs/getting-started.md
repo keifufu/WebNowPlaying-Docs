@@ -8,14 +8,14 @@
 
 ## Installing the script
 
-- Open the command prompt and run `pip install pywnp`
+- Open the command prompt and run `python -m pip install pywnp`
 - Download [wnp-obs.py](https://github.com/keifufu/WebNowPlaying-Redux-OBS/releases/latest/download/wnp-obs.py), then add it in the Scripts tab.
 - Select a Widget or click "Create Sources" in the Scripts window.
 
 ## Updating
 
 - Replace `wnp-obs.py` with the latest version from releases: [wnp-obs.py](https://github.com/keifufu/WebNowPlaying-Redux-OBS/releases/latest/download/wnp-obs.py).
-- Open the command prompt and run `pip install --upgrade pywnp`.
+- Open the command prompt and run `python -m pip install --upgrade pywnp`.
 
 ## Known Issues
 

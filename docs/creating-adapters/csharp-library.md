@@ -45,7 +45,7 @@ Starts WNP if it's not already started.
 ::: info Parameters
 
 - `port`: The port number to be used by WNP. Avoid using ports already used by other adapters or conflicting with other programs.
-- `version`: The version of WNP, which should be in the format "x.x.x".
+- `version`: The version of your adapter, which should be in the format "major.minor.patch".
 - `logger`: A function that handles logging, provided by the user.
 - `throttleLogs` (optional): If set to true, prevents the same log message from being logged more than once per 30 seconds.
 
