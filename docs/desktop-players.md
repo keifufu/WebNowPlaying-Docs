@@ -1,5 +1,11 @@
 # Desktop Players
 
+::: warning For Linux Users
+
+Support for Desktop Players is exclusive to Windows as of right now, if you'd like to get Spotify Desktop to work though, see [Spicetify](/spicetify).
+
+:::
+
 Also known as "Native APIs", this feature allows adapters to read and interact with any Desktop Player that reports to the Windows Media Session API.
 
 Browsers are explicitly excluded from this to avoid interference with the browser extension.
