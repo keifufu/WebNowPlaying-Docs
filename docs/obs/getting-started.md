@@ -3,7 +3,7 @@
 ## Adding python to OBS
 
 - Install Python 3.10 ([link](https://www.python.org/downloads/release/python-31010/)) and sure to check "Add python.exe to PATH".
-- In OBS, go to Tools -> Scripts -> Python Settings, and add the path to your Python installation.
+- In OBS, go to Tools -> Scripts -> Python Settings, and add the path to your Python installation.  
   (On windows, run `where python` in cmd to find the installation location.)
 
 ## Installing the script
@@ -14,7 +14,7 @@
 
 ## Updating
 
-- Replace `wnp-obs.py` with the latest version.
+- Replace `wnp-obs.py` with the latest version from releases: [wnp-obs.py](https://github.com/keifufu/WebNowPlaying-Redux-OBS/releases/latest/download/wnp-obs.py).
 - Open the command prompt and run `pip install --upgrade pywnp`.
 
 ## Known Issues
