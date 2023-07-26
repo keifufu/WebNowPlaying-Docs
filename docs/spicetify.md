@@ -1,6 +1,6 @@
 # Spicetify
 
-Spicetify is a modification for Spotify Desktop that allows you to customize the official Spotify client. It allows the injections of Extensions (Javascript script) to extend functionalities and many more.
+Spicetify is a modification for Spotify Desktop that allows you to customize the official Spotify client. It allows the injection of extensions and themes.
 
 ### Installing
 
