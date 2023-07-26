@@ -21,21 +21,9 @@ head:
 
 :::
 
-::: details Deezer
-
-- Missing volume control
-
-:::
-
 ::: details Invidious
 
 - Fully supported
-
-:::
-
-::: details Jellyfin
-
-- Music player not supported
 
 :::
 
@@ -54,12 +42,6 @@ head:
 ::: details Netflix
 
 - Fully supported
-
-:::
-
-::: details Pandora
-
-- Missing volume control
 
 :::
 
@@ -84,12 +66,6 @@ head:
 ::: details Spotify
 
 - Fully supported
-
-:::
-
-::: details Tidal
-
-- Missing volume control
 
 :::
 
@@ -120,6 +96,36 @@ head:
 ::: details YouTube Music
 
 - Fully supported
+
+:::
+
+</div>
+
+## Partially supported sites
+
+<div class="supported-sites">
+
+::: details Deezer
+
+- Missing volume control
+
+:::
+
+::: details Jellyfin
+
+- Music player not supported
+
+:::
+
+::: details Pandora
+
+- Missing volume control
+
+:::
+
+::: details Tidal
+
+- Missing volume control
 
 :::
 
