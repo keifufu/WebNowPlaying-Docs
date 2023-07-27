@@ -8,6 +8,13 @@ Changelogs for v0.x.x are only partly available, these versions are made by [tjh
 
 Full changelog available via [Github Commits](https://github.com/keifufu/WebNowPlaying-Redux-Rainmeter/commits/main)
 
+## v2.0.7
+
+[Go to Release](https://github.com/keifufu/WebNowPlaying-Redux-Rainmeter/releases/tag/2.0.7)
+
+- Added `Play` and `Pause` bangs.
+- Fixed Firefox not being ignored when Native APIs are enabled on Windows 10.
+
 ## v2.0.6
 
 [Go to Release](https://github.com/keifufu/WebNowPlaying-Redux-Rainmeter/releases/tag/2.0.6)
