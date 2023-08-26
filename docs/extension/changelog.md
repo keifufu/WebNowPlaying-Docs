@@ -8,6 +8,10 @@ Changelogs for v0.x.x are only partly available, these versions are made by [tjh
 
 Full changelog available via [Github Commits](https://github.com/keifufu/WebNowPlaying-Redux/commits/main)
 
+## v2.0.8
+
+- Disabled reports as they are currently useless
+
 ## v2.0.7
 
 - Fixed YouTube Music covers
