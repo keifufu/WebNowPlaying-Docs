@@ -17,10 +17,12 @@ Browsers are explicitly excluded from this to avoid interference with the browse
 
 ## List of known Desktop Players
 
-- Spotify (Full support)
+See [this list](https://github.com/ModernFlyouts-Community/ModernFlyouts/blob/main/docs/GSMTC-Support-And-Popular-Apps.md).
+
+<!-- - Spotify (Full support)
 - Tidal (missing position control)
 - foobar2000 (Full support)
-- Windows 11 Media Player (Not supported)
+- Windows 11 Media Player (Not supported) -->
 
 ## Disabling or enabling
 
