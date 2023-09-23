@@ -7,7 +7,7 @@ There are adapter libraries available for C# and Python.
 ## C#
 
 The C# Library works with .NET Framework 4.8, .NET Core and .NET 6 and newer.  
-It does not have built-in support for [Desktop Players](/desktop-players). Please see the source of [WebNowPlaying-Redux-Rainmeter](https://github.com/keifufu/WebNowPlaying-Redux-Rainmeter/blob/main/src/WNPReduxAdapterLibraryExtensions/WNPReduxNative.cs) for it's implementation.
+It does not have built-in support for [Desktop Players](/desktop-players). Please see the source of [WebNowPlaying-Redux-Rainmeter](https://github.com/keifufu/WebNowPlaying-Redux-Rainmeter/blob/main/src/WNPReduxAdapterLibraryExtensions/WNPReduxNative.cs) for its implementation.
 
 Refer to [C# Library](/creating-adapters/csharp-library) for usage.
 
