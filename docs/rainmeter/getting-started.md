@@ -6,6 +6,9 @@ Download and install the latest WebNowPlaying plugin for Rainmeter
 
 - [Latest Release](https://github.com/keifufu/WebNowPlaying-Redux-Rainmeter/releases/latest)
 
+Or with [MonD](https://github.com/meters-on-demand/cli):  
+`mond install keifufu/WebNowPlaying-Redux-Rainmeter`
+
 ## Install a compatible skin
 
 <div class="tip custom-block" style="padding-top: 8px">
