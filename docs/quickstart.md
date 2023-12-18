@@ -8,22 +8,14 @@
 
 ## Install the browser extension
 
-For Edge, Opera, Brave and other Chromium-based browsers, you can find the extension on the Chrome Web Store.  
-All Chromium-based browsers allow you to add extensions from the Chrome Web Store.
-
-- [Chrome Web Store](https://chrome.google.com/webstore/detail/webnowplaying-redux/jfakgfcdgpghbbefmdfjkbdlibjgnbli)
-- [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/webnowplaying-redux)
-
-::: details Read if using Firefox
-Due to a bug in Firefox, you will have to manually grant it permissions.  
-Right click "WebNowPlaying Redux" -> Manage Extension -> Permissions -> Check "Access your data for all websites"
-:::
+- [Chrome Web Store](https://chrome.google.com/webstore/detail/webnowplaying/jfakgfcdgpghbbefmdfjkbdlibjgnbli)
+- [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/webnowplaying)
 
 ## Install the Rainmeter plugin
 
 Download and install the latest WebNowPlaying plugin for Rainmeter
 
-- [Latest Release](https://github.com/keifufu/WebNowPlaying-Redux-Rainmeter/releases/latest)
+- [Latest Release](https://github.com/keifufu/WebNowPlaying-Rainmeter/releases/latest)
 
 ## Install a compatible skin
 

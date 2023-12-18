@@ -6,40 +6,55 @@ Just want to try it out? Skip to the [Quickstart](/quickstart).
 
 </div>
 
-WebNowPlaying (also known as WebNowPlaying-Redux) is a browser extension that exposes information and controls for currently playing media in the browser.
+WebNowPlaying (or WebNowPlaying-Redux) enables programs to read and control media players.
 
-Newer versions of official adapters can also interact with desktop players such as Spotify, Tidal, foobar2000 and others. Read more about it [here](/desktop-players).
+- Browser extension - Provides support for browser-based players.
+- Adapter library - Communicates with the browser extension and provides support for [Desktop Players](/desktop-players).
 
 ## Adapters
 
-These are programs, plugins or scripts that connect to the browser extension and utilize this data in various ways.
+These are programs, plugins or scripts make use of WebNowPlaying.
 
 **Official Adapters**
 
-- Rainmeter Plugin ([Docs](), [GitHub](https://github.com/keifufu/WebNowPlaying-Redux-Rainmeter))
-- OBS Script ([Docs](), [GitHub](https://github.com/keifufu/WebNowPlaying-Redux-OBS))
+- Rainmeter Plugin ([Docs](/rainmeter/getting-started), [GitHub](https://github.com/keifufu/WebNowPlaying-Rainmeter))
+- OBS Script ([Docs](/obs/getting-started), [GitHub](https://github.com/keifufu/WebNowPlaying-OBS))
+- CLI ([Docs](/cli/getting-started), [GitHub](https://github.com/keifufu/WebNowPlaying-CLI))
 
 **Third-party adapters**
 
-- Macro Deck Plugin ([GitHub](https://github.com/jbcarreon123/WebNowPlaying-Redux-Macro-Deck))
+- Macro Deck Plugin ([GitHub](https://github.com/jbcarreon123/WebNowPlaying-Macro-Deck))
 
 Want to create or submit your own adapter? Click [here](/creating-adapters/getting-started)!
 
 ## History
 
+A rough changelog of the major versions. For a more complete changelog, see:
+
+- [Extension changelog](/extension/changelog)
+- [Rainmeter Plugin changelog](/rainmeter/changelog)
+- [OBS Script changelog](/obs/changelog)
+- [CLI changelog](/cli/changelog)
+
 **v0.x**
 
-This version was created and maintained by [tjhrulz](https://github.com/tjhrulz).  
-It consisted of a browser extension and a Rainmeter Plugin, intended as a drop-in replacement for Rainmeter's NowPlaying plugin.
+These versions were created by [@tjhrulz](https://github.com/tjhrulz).  
+WebNowPlaying is a drop-in replacement for Rainmeter's [NowPlaying](https://docs.rainmeter.net/manual/measures/nowplaying/) plugin, the browser extension would connect to the plugin and let Rainmeter read/control browser media.  
+It also allowed for additonl controls, such as the players volume.
 
 **v1.x**
 
-This version, also known as WebNowPlaying-Redux, started as a fork of the browser extension, but was completely rewritten.  
-It fixed issues the original extension has and had a separate web store listing.  
-Shortly after release, tjhrulz and I agreed to make WebNowPlaying-Redux the default by replacing the original web store listing.  
-The browser extension was then extended to allow multiple adapters to be connected at once, and the Rainmeter plugin was also rewritten.
+Versions from here on were created by [@keifufu](https://github.com/keifufu).  
+The extension could now connect to multiple adapters.
 
 **v2.x**
 
-Native support for Desktop Players was added, read more about it [here](/desktop-players).  
+Support for Desktop Players was added, read more about it [here](/desktop-players).  
 Adapters can now also read what functionality the current media supports, e.g., `canSkipNext`, `canSetRating`, etc.
+
+**v3.x**
+
+Adapters can read and send events to all/any player(s) instead of just the active one.  
+Events return whether they succeeded or failed.  
+Players report their available repeat modes.  
+Shuffle and repeat modes can now be set instead of just toggled.

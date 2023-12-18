@@ -1,12 +1,26 @@
 # Changelog
 
-<div class="tip custom-block" style="padding-top: 8px">
+Full changelog available via [Github Commits](https://github.com/keifufu/WebNowPlaying/commits/main)
 
-Changelogs for v0.x.x are only partly available, these versions are made by [tjhrulz](https://github.com/tjhrulz).
+## v3.0.0
 
-</div>
+- Improved support for all sites \*¹
+- Added support for v3 adapters
+  - Events now return event results indicating whether they succeeded or failed
+  - Adapters get sent all players instead of just the active one
+  - Events can be sent to any player instead of just the active one
+  - Players report their available repeat modes
+  - Repeat mode can now be set invididually instead of toggled
+  - Shuffle can now be set instead of toggled
+- Ask for permissions in the settings interface when browsers didn't prompt the user
+- non-v3 adapters will toggle repeat modes in a consistent order (NONE -> ALL -> ONE), skipping unavailable ones
+- Optimization / performance improvements
+- Removed manual and automatic reporting functionality
+- Added CLI adapter
+- Updated the settings interface
+- Miscellaneous bug fixes and improvements
 
-Full changelog available via [Github Commits](https://github.com/keifufu/WebNowPlaying-Redux/commits/main)
+\*¹ See https://wnp.keifufu.dev/supported-sites
 
 ## v2.0.10
 

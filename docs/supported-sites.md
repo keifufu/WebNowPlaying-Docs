@@ -7,130 +7,33 @@ head:
 
 # Supported Sites
 
-<div class="supported-sites">
+| Site           | Status                                           |
+| -------------- | ------------------------------------------------ |
+| Apple Music    | Fully supported                                  |
+| Bandcamp       | Fully supported                                  |
+| Deezer         | Fully supported                                  |
+| Invidious      | Fully supported                                  |
+| Jellyfin       | Partially supported: music player missing        |
+| Kick           | Fully supported                                  |
+| Navidrome      | Fully supported                                  |
+| Netflix        | Fully supported                                  |
+| Pandora        | Partially supported, unmaintained: region-locked |
+| Plex           | Partially supported: Their player is a mess      |
+| Radio Addict   | Fully supported                                  |
+| SoundCloud     | Fully supported                                  |
+| Spotify        | Fully supported                                  |
+| Tidal          | Partially supported, unmaintained: paid-only     |
+| Twitch         | Fully supported                                  |
+| VK             | Fully supported                                  |
+| Yandex Music   | Partially supported, unmaintained: region-locked |
+| YouTube        | Fully supported                                  |
+| YouTube Embeds | Fully supported                                  |
+| YouTube Music  | Fully supported                                  |
 
-::: details Apple Music
+## Notes
 
-- Fully supported
-
-:::
-
-::: details Bandcamp
-
-- Fully supported
-
-:::
-
-::: details Invidious
-
-- Fully supported
-
-:::
-
-::: details Kick
-
-- Fully supported
-
-:::
-
-::: details Navidrome
-
-- Fully supported
-
-:::
-
-::: details Netflix
-
-- Fully supported
-
-:::
-
-::: details Plex
-
-- Fully supported
-
-:::
-
-::: details Radio Addict
-
-- Fully supported
-
-:::
-
-::: details SoundCloud
-
-- Fully supported
-
-:::
-
-::: details Spotify
-
-- Fully supported
-
-:::
-
-::: details Twitch
-
-- Fully supported
-
-:::
-
-::: details Yandex Music
-
-- Should be fully supported, this was implemented by [koteikanata](https://github.com/koteikanata) and I can't test if it works due to Yandex Music not being available in my country.
-
-:::
-
-::: details YouTube
-
-- Fully supported
-
-:::
-
-::: details YouTube Embeds
-
-- Fully supported
-
-:::
-
-::: details YouTube Music
-
-- Fully supported
-
-:::
-
-</div>
-
-## Partially supported sites
-
-<div class="supported-sites">
-
-::: details Deezer
-
-- Missing volume control
-
-:::
-
-::: details Jellyfin
-
-- Music player not supported
-
-:::
-
-::: details Pandora
-
-- Missing volume control
-
-:::
-
-::: details Tidal
-
-- Missing volume control
-
-:::
-
-</div>
+- Yandex Music was implemented and tested by [@koteikanata](https://github.com/koteikanata)
 
 ## Unsupported sites
 
-Enabling "Try to parse media from unsupported websites" under "Unsupported Sites" in the extension settings might work. Read more [here](/extension/settings#unsupported-sites).
+Enabling "Try to parse media on unsupported websites" under "Unsupported Sites" in the extension settings might work. Read more [here](/extension/settings#unsupported-sites).

@@ -1,4 +1,11 @@
-# Getting Started
+# OBS Script
+
+<div class="tip custom-block" style="padding-top: 8px">
+
+**Note:** This script is using the unmaintained [PyWNP](https://github.com/keifufu/PyWNP) library.  
+It will continue to work but newer features will not be available.
+
+</div>
 
 ## Adding python to OBS
 
@@ -9,12 +16,12 @@
 ## Installing the script
 
 - Open the command prompt and run `python -m pip install pywnp`
-- Download [wnp-obs.py](https://github.com/keifufu/WebNowPlaying-Redux-OBS/releases/latest/download/wnp-obs.py), then add it in the Scripts tab.
+- Download [wnp-obs.py](https://github.com/keifufu/WebNowPlaying-OBS/releases/latest/download/wnp-obs.py), then add it in the Scripts tab.
 - Select a Widget or click "Create Sources" in the Scripts window.
 
 ## Updating
 
-- Replace `wnp-obs.py` with the latest version from releases: [wnp-obs.py](https://github.com/keifufu/WebNowPlaying-Redux-OBS/releases/latest/download/wnp-obs.py).
+- Replace `wnp-obs.py` with the latest version from releases: [wnp-obs.py](https://github.com/keifufu/WebNowPlaying-OBS/releases/latest/download/wnp-obs.py).
 - Open the command prompt and run `python -m pip install --upgrade pywnp`.
 
 ## Known Issues

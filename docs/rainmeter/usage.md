@@ -68,7 +68,7 @@ WebNowPlaying measures can be controlled with the `!CommandMeasure` bang with th
 
 ## Example
 
-For a more complete example, check the [WebNowPlaying Example skin](https://github.com/keifufu/WebNowPlaying-Redux-Rainmeter/blob/main/ExampleSkin/Example.ini).
+For a more complete example, check the [WebNowPlaying Example skin](https://github.com/keifufu/WebNowPlaying-Rainmeter/blob/main/ExampleSkin/Example.ini).
 
 ```ini
 [Rainmeter]

@@ -1,13 +1,13 @@
-# Getting Started
+# Rainmeter Plugin
 
 ## Installing
 
 Download and install the latest WebNowPlaying plugin for Rainmeter
 
-- [Latest Release](https://github.com/keifufu/WebNowPlaying-Redux-Rainmeter/releases/latest)
+- [Latest Release](https://github.com/keifufu/WebNowPlaying-Rainmeter/releases/latest)
 
 Or with [MonD](https://github.com/meters-on-demand/cli):  
-`mond install keifufu/WebNowPlaying-Redux-Rainmeter`
+`mond install keifufu/WebNowPlaying-Rainmeter`
 
 ## Install a compatible skin
 

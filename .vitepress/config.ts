@@ -3,12 +3,16 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "WebNowPlaying",
   titleTemplate: ":title - WebNowPlaying",
-  description:
-    "A WebSocket server-client system for retrieving music info and managing playback",
+  description: "Enables programs to read and control media players",
   srcDir: "docs",
   lastUpdated: true,
   cleanUrls: true,
   themeConfig: {
+    lastUpdated: {
+      formatOptions: {
+        dateStyle: "long",
+      },
+    },
     search: {
       provider: "local",
     },
@@ -22,7 +26,7 @@ export default defineConfig({
       {
         text: "Documentation",
         link: "/what-is-webnowplaying",
-        activeMatch: "^(?!/$).+$",
+        activeMatch: "[^/]",
       },
     ],
     sidebar: [
@@ -39,10 +43,6 @@ export default defineConfig({
           },
           { text: "Supported Sites", link: "/supported-sites" },
           { text: "Desktop Players", link: "/desktop-players" },
-          {
-            text: "Technical Explanation",
-            link: "/technical-explanation",
-          },
           {
             text: "Spicetify",
             link: "/spicetify",
@@ -73,6 +73,13 @@ export default defineConfig({
         ],
       },
       {
+        text: "CLI",
+        items: [
+          { text: "Getting Started", link: "/cli/getting-started" },
+          { text: "Changelog", link: "/cli/changelog" },
+        ],
+      },
+      {
         text: "Creating Adapters",
         items: [
           {
@@ -80,12 +87,8 @@ export default defineConfig({
             link: "/creating-adapters/getting-started",
           },
           {
-            text: "C# Library",
-            link: "/creating-adapters/csharp-library",
-          },
-          {
-            text: "Python Library",
-            link: "/creating-adapters/python-library",
+            text: "Adapter Library",
+            link: "/creating-adapters/adapter-library",
           },
         ],
       },

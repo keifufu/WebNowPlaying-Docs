@@ -1,42 +1,26 @@
-# Getting Started
+# Creating Adapters
 
-I recommend reading the [Technical Explanation](/technical-explanation) before continuing.
+Adapters are implemented using the [Adapter Library](/creating-adapters/adapter-library), which is written in C.
 
-There are adapter libraries available for C# and Python.
+### Language bindings
 
-## C#
+There are currently no bindings for the library.
 
-The C# Library works with .NET Framework 4.8, .NET Core and .NET 6 and newer.  
-It does not have built-in support for [Desktop Players](/desktop-players). Please see the source of [WebNowPlaying-Redux-Rainmeter](https://github.com/keifufu/WebNowPlaying-Redux-Rainmeter/blob/main/src/WNPReduxAdapterLibraryExtensions/WNPReduxNative.cs) for its implementation.
+### Testing your adapter
 
-Refer to [C# Library](/creating-adapters/csharp-library) for usage.
+You can connect the browser extension to your adapter by clicking "Add custom adapter" in the [extension settings](/extension/settings).
 
-## Python
-
-The python library has built-in support for [Desktop Players](/desktop-players)
-
-Refer to [Python Library](/creating-adapters/python-library) for usage.
-
-## Other Languages
-
-While it's possible to create adapters in other languages, you would have to implement the functionality of the adapter libraries yourself, which can be very error-prone.
-
-## Testing your adapter
-
-You can connect the browser extension to your adapter by clicking "Add custom adapter" in the extension [Settings](/extension/settings).
-
-## Submitting your adapter
+### Submitting your adapter
 
 **Requirements**
 
-- Must exclusively use one of the official adapter libraries for communication
 - Must be open-sourced on GitHub
 - Executables, plugins or scripts must be published via GitHub releases
-- GitHub releases must be tagged as "vmajor.minor.patch" or "major.minor.patch"
+- GitHub releases must be tagged as "vmajor.minor.patch" or "major.minor.patch" where major should be the current library revision
 - Must use a unique port, which cannot be changed after submitting your adapter.
-- GitHub repository muts be named "WebNowPlaying-Redux-name" e.g., "WebNowPlaying-Redux-Rainmeter".
+- GitHub repository should be named "WebNowPlaying-name" e.g. "WebNowPlaying-Rainmeter".
 
-If your adapter meets the requirements, open an issue [here](https://github.com/keifufu/WebNowPlaying-Redux/issues) using the following template:
+If your adapter meets the requirements, open an issue [here](https://github.com/keifufu/WebNowPlaying/issues) using the following template:
 
 ```
 Issue Title: Request: Add <Adapter Name>
