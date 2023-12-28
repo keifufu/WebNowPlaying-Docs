@@ -25,7 +25,7 @@ features:
     link: /obs/getting-started
   - title: CLI
     details: Command-line interface for WebNowPlaying
-    link: /cl/getting-started
+    link: /cli/getting-started
   - title: Creating Adapters
     details: Learn how to create your own adapter
     link: /creating-adapters/getting-started
